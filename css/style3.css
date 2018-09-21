@@ -80,7 +80,15 @@
 	text-shadow: 0px 0px 1px #676767;
 }
 .ca-menu li:hover{
-    background-color: #000533;
+    background: rgba(39,3,171,1);
+	background: -moz-linear-gradient(top, rgba(39,3,171,1) 6%, rgba(39,3,171,0.99) 22%, rgba(32,2,141,0.98) 51%, rgba(23,0,107,0.97) 79%, rgba(23,0,107,0.96) 97%);
+	background: -webkit-gradient(left top, left bottom, color-stop(6%, rgba(39,3,171,1)), color-stop(22%, rgba(39,3,171,0.99)), color-stop(51%, rgba(32,2,141,0.98)), color-stop(79%, rgba(23,0,107,0.97)), color-stop(97%, rgba(23,0,107,0.96)));
+	background: -webkit-linear-gradient(top, rgba(39,3,171,1) 6%, rgba(39,3,171,0.99) 22%, rgba(32,2,141,0.98) 51%, rgba(23,0,107,0.97) 79%, rgba(23,0,107,0.96) 97%);
+	background: -o-linear-gradient(top, rgba(39,3,171,1) 6%, rgba(39,3,171,0.99) 22%, rgba(32,2,141,0.98) 51%, rgba(23,0,107,0.97) 79%, rgba(23,0,107,0.96) 97%);
+	background: -ms-linear-gradient(top, rgba(39,3,171,1) 6%, rgba(39,3,171,0.99) 22%, rgba(32,2,141,0.98) 51%, rgba(23,0,107,0.97) 79%, rgba(23,0,107,0.96) 97%);
+	background: linear-gradient(to bottom, rgb(2, 5, 29) 6%, rgb(1, 4, 29) 22%, rgba(32,2,141,0.98) 51%, rgb(1, 4, 27) 79%, rgba(23,0,107,0.96) 97%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2703ab', endColorstr='#17006b', GradientType=0 );
+
 }
 .ca-menu li:hover .ca-icon{
     color: #f900b0;
